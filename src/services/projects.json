@@ -1,0 +1,105 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Panel de Administración Web",
+      "pendingTasks": 12,
+      "teamMembers": 5,
+      "progress": 76,
+      "teamPerformance": {
+        "enero": 82,
+        "febrero": 88,
+        "marzo": 80,
+        "abril": 92,
+        "mayo": 85,
+        "junio": 90,
+        "julio": 87,
+        "agosto": 84,
+        "septiembre": 91,
+        "octubre": 89,
+        "noviembre": 86,
+        "diciembre": 90
+      },
+      "yearPerformance": 87
+    },
+    {
+      "id": 2,
+      "name": "Aplicación Móvil de Clientes",
+      "pendingTasks": 8,
+      "teamMembers": 4,
+      "progress": 64,
+      "quarterPerf": {
+        "Q1": 11,
+        "Q2": 15,
+        "Q3": 49,
+        "Q4": 39
+      },
+      "isFlagship": true,
+      "teamPerformance": {
+        "enero": 70,
+        "febrero": 68,
+        "marzo": 75,
+        "abril": 73,
+        "mayo": 80,
+        "junio": 78,
+        "julio": 82,
+        "agosto": 64,
+        "septiembre": 85,
+        "octubre": 83,
+        "noviembre": 80,
+        "diciembre": 88
+      },
+      "yearPerformance": 78
+    },
+    {
+      "id": 3,
+      "name": "Intranet Corporativa",
+      "pendingTasks": 20,
+      "teamMembers": 6,
+      "progress": 52,
+      "teamPerformance": {
+        "enero": 60,
+        "febrero": 58,
+        "marzo": 65,
+        "abril": 62,
+        "mayo": 70,
+        "junio": 66,
+        "julio": 68,
+        "agosto": 72,
+        "septiembre": 75,
+        "octubre": 78,
+        "noviembre": 74,
+        "diciembre": 80
+      },
+      "yearPerformance": 69
+    },
+    {
+      "id": 4,
+      "name": "Dashboard de Ventas",
+      "pendingTasks": 5,
+      "teamMembers": 3,
+      "progress": 91,
+      "teamPerformance": {
+        "enero": 95,
+        "febrero": 92,
+        "marzo": 94,
+        "abril": 96,
+        "mayo": 90,
+        "junio": 93,
+        "julio": 97,
+        "agosto": 94,
+        "septiembre": 96,
+        "octubre": 95,
+        "noviembre": 98,
+        "diciembre": 97
+      },
+      "yearPerformance": 95
+    }
+  ],
+  "summary": {
+    "totalProjects": 4,
+    "totalPendingTasks": 45,
+    "totalTeamMembers": 18,
+    "averageYearPerformance": 82
+  }
+}
