@@ -3,7 +3,7 @@ import dataTasks from "./tasks.json";
 export const fetchTasks = (): Promise<Column[]> => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(dataTasks);
+      resolve(dataTasks.tasks);
     }, 1000);
   });
 };

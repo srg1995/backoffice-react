@@ -6,7 +6,7 @@
       "tasks": [
         { "id": "1", "title": "Crear proyecto", "type": "dev" },
         { "id": "2", "title": "Configurar repo", "type": "dev" },
-        { "id": "2", "title": "Desarrollar HomePage", "type": "dev" },
+        { "id": "6", "title": "Desarrollar HomePage", "type": "dev" },
         { "id": "5", "title": "Realizar test", "type": "test" }
       ]
     },
