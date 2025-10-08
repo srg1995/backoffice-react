@@ -42,10 +42,19 @@ export default function Line({ data }: LineProps) {
           series={[
             {
               data: lineData,
+              color: "url(#gradient)",
+              area: true,
             },
           ]}
           height={300}
-        />
+        >
+          <defs>
+            <linearGradient id="gradient" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="#3b82f6" stopOpacity={0.9} />
+              <stop offset="100%" stopColor="#3b82f6" stopOpacity={0} />
+            </linearGradient>
+          </defs>
+        </LineChart>
       </CardContent>
     </Card>
   );
