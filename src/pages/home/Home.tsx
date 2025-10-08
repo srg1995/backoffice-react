@@ -7,10 +7,11 @@ import {
 } from "@mui/material";
 
 import { useEffect, useMemo, useState } from "react";
-import { fetchProjects } from "../../services/projectService";
+
 import type { Project, Projects } from "../../models/projectModel";
 import Pie from "../../components/Pie";
 import Line from "../../components/Line";
+import { fetchProjects } from "../../services/project/projectService";
 
 export default function Home() {
   const [data, setData] = useState<Projects | null>(null);

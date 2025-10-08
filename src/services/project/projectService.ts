@@ -1,4 +1,4 @@
-import type { Projects } from "../models/projectModel";
+import type { Projects } from "../../models/projectModel";
 import dataProjetcts from "./projects.json";
 export const fetchProjects = (): Promise<Projects> => {
   return new Promise((resolve) => {

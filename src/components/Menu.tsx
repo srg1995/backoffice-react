@@ -7,7 +7,7 @@ import HomeRepairServiceOutlinedIcon from "@mui/icons-material/HomeRepairService
 import DashboardIcon from "@mui/icons-material/Dashboard";
 export default function Menu() {
   return (
-    <aside className="shadow-right bg-amber-50 px-4 py-2 shadow-2xl">
+    <aside className="shadow-right bg-slate-50 px-4 py-2 shadow-2xl">
       <h2 className="flex items-center justify-start gap-2 px-2 py-4 text-2xl font-bold">
         <DashboardIcon />
         DASHBOARD
